@@ -1,0 +1,268 @@
+*
+{
+    margin: 0%;
+}
+input{
+    color: white;
+}
+input:focus
+{
+    color: white;
+}
+#BG {
+    height: auto;
+    width: 100%;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/c38a2d52-138e-48a3-ab68-36787ece46b3/eeb03fc9-99c6-438e-824d-32917ce55783/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: auto;
+    background-color: black;
+}
+#wrap
+{
+    height: inherit;
+    background-color: rgb(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo
+{
+    width: 100%;
+}
+#logo img {
+    margin-top: 20PX;
+    margin-left: 36PX;
+    width: 170px;
+    height: 54px;
+}
+#form
+{
+    margin-top: 20px;
+    width: 30vw;
+    height: 90vh;
+    padding-top: 50PX;
+    background-color: rgb(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: antiquewhite;
+}
+#form h3{
+    width: 75%;
+    font-size: 35px;
+    font-weight: 500;
+   
+}
+#input
+{
+    width: 75%;
+    padding-top: 30PX;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+#input input{
+    width: 100%;
+    height: 50px;
+    border: 0PX;
+    border-radius: 6PX;
+    background-color: rgb(51, 51, 51);
+    
+}
+#input input[type="text"]::placeholder{
+padding-left: 10px ;
+}
+#input input[type="password"]::placeholder{
+    padding-left: 10px ;
+    }
+#btnx
+{
+   
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+#btnx button{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    border: 0px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+    
+}
+#btnx-botton{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+#btnx-botton h5,label
+{
+
+    font-weight: 400;
+}
+
+#form-bottom
+{
+    margin-top: 70px;
+    width: 75%;
+}
+#form-bottom h4{
+font-size: 15px;
+font-weight: 400;
+}
+#form-bottom h4 span
+{
+    color: #737373;
+}
+#form-bottom p
+{
+    color: #737373;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+}
+#form-bottom p{
+    width: 85%;
+    text-align: start;
+    font-size: 12px;
+}
+#form-bottom p span{
+    color: blue;
+}
+
+#footerx
+{
+    margin-top: 50px;
+    height:  35vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+
+}
+#footerx p{
+    font-size: 15px;
+    color: #737373;
+   
+}
+#footerx li{
+    font-size: 15px;
+    color: #737373;
+}
+#footer-wrap
+{
+    padding-top: 30px;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+}
+#footerx p{
+    text-align: start;
+}
+#footer-cont
+{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+gap: 10px 180px;
+   width: 100%;
+   height: 80px;
+}
+#footerx li{
+    
+    color: white;
+    list-style: none;
+}
+
+#select-button select
+{
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width:440px)
+{
+   
+    #BG
+    {
+        background-image: none;
+    }
+    #logo img {
+      margin: 5%;
+        width: 110px;
+        height: 34px;
+    }
+    #form
+{
+    margin-top: 0px;
+    width: 100vw;
+    height: auto;
+    padding-top: 0PX;
+    background-color: rgba(0, 0, 0, 0.8);
+  
+ 
+}
+#form h3
+{
+    width: 90%;
+    font-size: 28px;
+  
+}
+#input
+{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 90%;
+    height: auto;
+   
+    justify-content: center;
+    align-items: center;
+}
+#input input
+{
+   
+    width: 99%;
+}
+#btnx
+{
+   
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+#btnx button{
+    width: 100%;
+    height: 40px;}
+    #form-bottom
+{
+    margin-top: 20px;
+    width: 90%;
+}
+#form-bottom p
+{
+   margin-top: 3%;
+}
+
+
+
+#footerx
+{
+    border-top: 2px solid rgb(42, 41, 41);
+}
+#footer-wrap{
+    width: 100%;
+    padding: 5%;
+    
+}
+#footer-cont
+{
+    height: 100px;
+    gap: 10px 90px;
+}
+
+}

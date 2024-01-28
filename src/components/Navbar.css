@@ -1,0 +1,13 @@
+#nav-wrap
+{
+    height: 150px;
+  background-color: rgb(255, 255, 255,0);
+  position: absolute;
+  z-index: 1;
+}
+
+#nav-wrap img{
+    width: 30px;
+    height: 10px;
+   
+}
